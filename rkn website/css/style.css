@@ -9318,7 +9318,23 @@ textarea.form-control {
     -webkit-box-shadow: 0 0 0 0 rgba(23, 185, 120, 0);
     box-shadow: 0 0 0 0 rgba(23, 185, 120, 0); } }
 
-
+/* ======================= */
+.navbar-brand img{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin: 5px;
+  box-shadow: 1px 2px 5px grey;
+}
+ h2{
+  color: #b0874a ;
+ }
+ h4{
+  color: #b0874a ;
+ }
+.heading{
+  color: #b0874a ;
+}
 
 /* =============== about section ============== */
 
@@ -9355,17 +9371,14 @@ textarea.form-control {
     .content h2{
       font-size: 50px;
       font-weight: bold;
-      color: brown;
+      color: #b0874a;
       
-    }
-    .content h2:hover{
-      color: brown;
     }
     .p-line{
       line-height:22px;
     }
     .content b{
-      color: brown;
+      color: #b0874a;
     }
     .flag{
       margin-top: 30px;
