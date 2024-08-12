@@ -9363,23 +9363,40 @@ textarea.form-control {
       width: 450px;
       height: 600px;
     }
+    .image1 img{
+      width: 450px;
+      height: 600px;
+    }
     .content{
       width: 450px;
       height: 600px;
       padding: 10px;
     }
     .content h2{
-      font-size: 50px;
+      /* font-size: 40px; */
       font-weight: bold;
       color: #b0874a;
       
     }
-    .p-line{
-      line-height:22px;
-    }
     .content b{
       color: #b0874a;
     }
+    .content1{
+      width: 450px;
+      height: 600px;
+      padding: 10px;
+    }
+    .content1 h2{
+      font-weight: bold;
+      color: #b0874a;
+    }
+    .content1 b{
+      color: #b0874a;
+    }
+    .p-line{
+      line-height:22px;
+    }
+   
     .flag{
       margin-top: 30px;
     }
@@ -9395,27 +9412,90 @@ textarea.form-control {
 
     
 @media (max-width:586px) {      /*for smaller screen*/
- 
+  .main-book1{ 
+    display: flex;
+    justify-content: space-between;
+  }
   .image img{
     width: 200px;
-    height: 450px;
+    height: 470px;
     margin-left: -70px;
   }
+ 
   .content{
     width: 250px;
     height: 450px;
     font-size: 10px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    margin-right: -75px;
   }
-  .main-book1{ 
-    margin: 80px;
-    display: flex;
-    /* flex-wrap:wrap ; */
-    justify-content: space-around;
+  .flag{
+    margin-top: -15px;
   }
-}
+  .flag img{
+    padding: 5px;
+  }
+  .para{
+    margin-top: -10px;
+  }
+  .content h2{
+    margin-top: -30px;
+  }
+  .p-line{
+    line-height:15px ;
+  }
+  .image1 img{
+    width: 200px;
+    height: 470px;
+    margin-right: -70px;
+  }
+  .content1{
+    width: 250px;
+    height: 450px;
+    font-size: 10px;
+    margin-left: -70px;
+    margin-bottom: 80px;
+  }
+  .content1 h2{
+    margin-top: -30px;
+  }
+  
 /*  =======   contact section =========== */
 
-iframe{
-  height: 560px;
-  width: 510px;
+.map iframe{
+ width: 20px;
+  margin-right: 100px;
+}
+
+@media (max-width:586px){
+  iframe{
+    height: 270px;
+    width: 370px;
+    margin: 10px;
+    /* margin-bottom: 50px; */
+  }
+}
+
+.text .mainheading{
+ 
+  margin-top: 100px;color: #b0874a ;
+}
+.text .maindef{
+  margin-left:250px;
+  margin-right:150px;  
+  color: rgb(55, 55, 55);
+  font-size:25px; 
+  font-weight: bold; 
+
+}
+.btn{
+  margin-left: 700px
+
+}
+@media (max-width:586px){
+  .hero-wrap{
+    width: 400px;
+    height: 200px;
+  }
 }
