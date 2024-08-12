@@ -9346,7 +9346,7 @@ textarea.form-control {
 }
 .more span:hover{
   border-radius: 50px ;
-  background-color:turquoise;
+  background-color:white;
   color: black;
   
 }
@@ -9391,8 +9391,31 @@ textarea.form-control {
       width: 29px;
       height: 23px;
     }
+
+
+    
+@media (max-width:586px) {      /*for smaller screen*/
+ 
+  .image img{
+    width: 200px;
+    height: 450px;
+    margin-left: -70px;
+  }
+  .content{
+    width: 250px;
+    height: 450px;
+    font-size: 10px;
+  }
+  .main-book1{ 
+    margin: 80px;
+    display: flex;
+    /* flex-wrap:wrap ; */
+    justify-content: space-around;
+  }
+}
 /*  =======   contact section =========== */
 
 iframe{
   height: 560px;
+  width: 500px;
 }
